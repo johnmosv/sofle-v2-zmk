@@ -201,7 +201,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        right_thumb {
+        lower_layer {
             label = "right";
 
             // Arrows layer - like Corne with number row
@@ -223,7 +223,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        left_thumb {
+        raise_layer {
             label = "raise";
 
             // Special characters layer - shifted down one row for home row access
